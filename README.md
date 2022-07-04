@@ -15,13 +15,13 @@ Implementation of the Marginal Contrastive Discrimination (MCD) method for condi
 ```bash
 conda create --name MCD_demo python=3.7
 conda activate MCD_demo
-conda install ipykernel scikit-learn=0.23.2 scipy=1.6.2 matplotlib=3.4.3 -c anaconda -y 
+conda install ipykernel scikit-learn=0.23.2 scipy=1.6.2 statsmodels=0.12.2 matplotlib=3.4.3 -c anaconda -y 
 conda deactivate
 wget 'https://github.com/benjaminriu/MarginalContrastiveDiscrimination.git'
-cd FFNN_InitFitPredict
+cd MarginalContrastiveDiscrimination
 ```
 
-If using MCD with the FFNN_InitFitPredict repository, then do:
+If using MCD with the FFNN_InitFitPredict repository, then, while inside the MarginalContrastiveDiscrimination directory, do:
 
 ```bash
 conda activate MCD_demo
